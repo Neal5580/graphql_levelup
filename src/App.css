@@ -1,0 +1,67 @@
+ 
+
+.App-header {
+  background-color: #524763;
+   padding: 20px;
+  color: white; text-align: center;
+}
+
+.App-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.button{
+    text-decoration: none;
+    background: #524763;
+    color: white;
+    padding:  5x 10px;
+    border-radius: 5px;
+}
+
+.posts-listing{
+     padding: 0;
+    margin: 2rem 0;
+}
+
+.posts-listing li {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.posts-listing a{
+    margin-bottom: 2rem;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+input{
+    font-size: 1.6rem;
+}
+
+textarea{
+    font-size: 1.6rem;
+    height: 50vh;
+}
